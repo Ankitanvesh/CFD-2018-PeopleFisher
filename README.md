@@ -19,7 +19,7 @@ AZURE blob - Used to upload the apk file.
         once the send message button is pressed, the user has to wait till the phone has attempted to send the messae to all           the nearby peers(usually a minut or two)* 
         
         
-        **This is a LIMITATION of the ANDROID device, and not the APPLICATION.**
+        **This is a LIMITATION of the ANDROID device, and not the APPLICATION**
         
         
 **2.**  *If the app choses not to respond, please switch off the wifi, and the application and try again.*
