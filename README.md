@@ -15,9 +15,16 @@ AZURE blob - Used to upload the apk file.
 **Follow these tips to avoid errors:**
 **1.** *Since peer to peer connection is a resource intensive task, 
         once the send message button is pressed, the user has to wait till the phone has attempted to send the messae to all           the nearby peers(usually a minut or two)* 
-        This is a LIMITATION of the ANDROID device, and not the APPLICATION. 
-**2.**  *If the app choses not to respond, please switch off the wifi, and the application and try again.* 
-**3.**   *Trilateration is currently not supported on all the android devices so please use the Trilateration button with                 utmost caution. * 
+        
+        
+        **This is a LIMITATION of the ANDROID device, and not the APPLICATION.**
+        
+        
+**2.**  *If the app choses not to respond, please switch off the wifi, and the application and try again.*
+
+**3.**   *Trilateration is currently not supported on all the android devices so please use the Trilateration button with                 utmost caution. *
+
 **4.Send button :**  runs a for loop through the peers in range, and sends messages to them
                   takes time to implement due to device limitation so please be patient and do not spam the send button.
+                  
 **5.Trilateration button:**  this is similar but instead it requests data from the client , which is further used to calculate                               the latiude longitude of the user this is also a slow process due to device limitation so please                               do not spam the trilateration button.
